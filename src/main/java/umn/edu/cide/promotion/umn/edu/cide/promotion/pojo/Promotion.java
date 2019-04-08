@@ -7,7 +7,7 @@ import java.util.Date;
 import java.util.UUID;
 
 @Document
-public class Promotion {
+public class Promotion extends AbstractPromotion {
     private @Id String id;
 
     public String getId() {
